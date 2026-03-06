@@ -321,6 +321,7 @@ a.button:hover {border: 2px solid #222 !important;background-color:#222;color:#f
 	
 .project {padding-bottom:20px}
 .project h4 {margin-bottom:5px}
+.project a.button + a.button {margin-left:8px}
 
 
 .padding {
@@ -497,6 +498,10 @@ body, html {
 	width: 50%;
 	padding: 30px 5%;
 	position:fixed;
+}
+
+h1.lead {
+	font-size: clamp(30px, 5vw, 90px);
 }
 
 
