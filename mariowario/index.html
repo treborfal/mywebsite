@@ -63,7 +63,7 @@
 <div class="container">
   <header>
     <div class="left">
-      <img class="avatar" src="images/super/mario-animation.gif">
+      <img class="avatar" src="/images/super/mario-animation.gif">
       <h1>Really Super Mario vs Really Super Wario</h1>
       <p class="sub">By <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a> • 19 Heroes • 19 Villains</p>
     </div>
@@ -257,7 +257,7 @@
 <footer>
   <div class="left">
     <p class="big">An illustration project showing how Super Mario and Super Wario would look if they really were Super, dressing them up as Iconic Comic Book Rivals. The project was created for Super Mario's 30th Birthday and has no affiliation with Nintendo.</p>
-    <p>All images Copyright &copy; <?php echo date("Y");?> <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a></p>
+    <p>All images Copyright &copy; <span id="copyright-year"></span> <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a></p>
   </div>
   <div class="right">
     <div class="share"> 
@@ -312,5 +312,6 @@
       ga('send', 'pageview');
 
     </script>
+<script>document.getElementById("copyright-year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -140,7 +140,7 @@
 <footer>
   <div class="left">
     <p class="big">A simple illustration project using horizontal lines and colours to define key elements of the iconic characters from Teenage Mutant Ninja Turtles. Inspiration: <a href="http://mmminimal.com/street-fighter-turbo-minimal-abstract-characters/" target="_blank">Minimalist Street Fighter Characters</a> and <a href="http://mmminimal.com/minimalist-muppets-by-eric-slager/" target="_blank">Minimalistic Muppet Series</a>.</p>
-    <p>All images Copyright &copy; <?php echo date("Y");?> <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a></p>
+    <p>All images Copyright &copy; <span id="copyright-year"></span> <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a></p>
   </div>
   <div class="right">
     <div class="share"> 
@@ -195,5 +195,6 @@
       ga('send', 'pageview');
 
     </script>
+<script>document.getElementById("copyright-year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
