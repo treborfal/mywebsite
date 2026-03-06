@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "name": "Rob Lafratta",
+    "tagline": [
+      "a Product Designer",
+      "in the UK."
+    ],
+    "funFact": {
+      "prefix": "*can recite Pi to",
+      "crossedOut": "15",
+      "value": "20",
+      "suffix": "decimal places."
+    }
+  },
+  "currentRole": {
+    "prefix": "Currently leading the design and user experience at",
+    "company": {
+      "name": "YCBM",
+      "url": "http://youcanbook.me",
+      "title": "YouCanBookMe"
+    }
+  }
+}

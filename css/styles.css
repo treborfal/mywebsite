@@ -80,6 +80,10 @@ h1 {
 	font-size: 5em;
 	line-height:1.3em !important;
 }
+
+h1.lead {
+	font-size: clamp(30px, 8vw, 120px);
+}
 h2 {
 	font-size: 1.8em
 }
