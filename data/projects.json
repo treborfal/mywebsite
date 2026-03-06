@@ -82,13 +82,13 @@
     },
     {
       "name": "Really Super Mario vs Really Super Wario",
-      "url": "/mariowario/",
+      "url": "./mariowario/",
       "title": "Really Super Mario vs Really Super Wario",
       "description": "illustration set of Iconic Comic Book Rivals with a twist.",
       "links": [
         {
           "label": "Website",
-          "url": "/mariowario/",
+          "url": "./mariowario/",
           "title": "Really Super Mario vs Really Super Wario"
         }
       ]
