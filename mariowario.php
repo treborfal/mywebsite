@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Really Super Mario vs Really Super Wario</title>
+<meta name="description" content="Really Super Mario vs Really Super Wario by Rob Lafratta" />
+<meta name="keywords" content="super mario, super wario, illustration, happy birthday Super Mario" />
+<meta name="author" content="Rob Lafratta" />
+
+<!-- for facebook -->
+<meta property="og:url" content="http://roblafratta.com/mariowario" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Really Super Mario vs Really Super Wario" />
+<meta property="og:description" content="What if Super Mario really was Super?" />
+<meta property="og:image" content="http://www.roblafratta.com/images/super/reallysuper.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:admins" content="509962251" />
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon//apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon//apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon//apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon//apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon//apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon//apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon//apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon//apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon//apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon//favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon//android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon//favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon//favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/favicon//manifest.json">
+<link rel="mask-icon" href="/favicon//safari-pinned-tab.svg" color="#222222">
+<meta name="msapplication-TileColor" content="#222222">
+<meta name="msapplication-TileImage" content="/favicon//mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" type="text/css" href="/css/super.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script async src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.async=true; js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- OPL award -->
+    <a href="https://onepagelove.com/really-super-mario-vs-really-super-wario" target="_blank" class="opl"><img width="73" height="56" src="https://s3.amazonaws.com/onepagelove/one-page-love-award-retina-right.png" srcset="https://s3.amazonaws.com/onepagelove/one-page-love-award-right.png 1x , https://s3.amazonaws.com/onepagelove/one-page-love-award-retina-right.png 2x"></a>
+    
+    <!-- / OPL award -->
+    
+    
+<div class="container">
+  <header>
+    <div class="left">
+      <img class="avatar" src="images/super/mario-animation.gif">
+      <h1>Really Super Mario vs Really Super Wario</h1>
+      <p class="sub">By <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a> • 19 Heroes • 19 Villains</p>
+    </div>
+    <div class="right hide-for-mobile">
+      <h2><span class="birthday"><i class="fa fa-birthday-cake"></i> Happy Birthday Super Mario</span></h2>
+    </div>
+    <div class="clear"></div>
+  </header>
+  <div class="vs-block">vs</div>
+  <div id="cbp-fbscroller" class="cbp-fbscroller">
+    <nav><a href="#fbsection1" class="cbp-fbcurrent">Section 1</a> <a href="#fbsection2">Section 2</a> <a href="#fbsection3">Section 3</a> <a href="#fbsection4">Section 4</a> <a href="#fbsection5">Section 5</a> <a href="#fbsection6">Section 6</a> <a href="#fbsection7">Section 7</a> <a href="#fbsection8">Section 8</a> <a href="#fbsection9">Section 9</a> <a href="#fbsection10">Section 10</a> <a href="#fbsection11">Section 11</a> <a href="#fbsection12">Section 12</a> <a href="#fbsection13">Section 13</a> <a href="#fbsection14">Section 14</a> <a href="#fbsection15">Section 15</a> <a href="#fbsection16">Section 16</a> <a href="#fbsection17">Section 17</a> <a href="#fbsection18">Section 18</a>  <a href="#fbsection19"><!--<span class="new">New</span>-->Section 19</a>  </nav>
+    
+   
+    
+ 
+    
+    <section id="fbsection1" class="clearfix">
+      <div class="left">
+        <p>#1—Superman</p>
+      </div>
+      <div class="right">
+        <p>#2—Lex Luthor</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection2" class="clearfix">
+      <div class="left">
+        <p>#3—Batman</p>
+      </div>
+      <div class="right">
+        <p>#4—Joker</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection3" class="clearfix">
+      <div class="left">
+        <p>#5—Spiderman</p>
+      </div>
+      <div class="right">
+        <p>#6—Green Goblin</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection4" class="clearfix">
+      <div class="left">
+        <p>#7—Hulk</p>
+      </div>
+      <div class="right">
+        <p>#8—Abomination</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection5" class="clearfix">
+      <div class="left">
+        <p>#9—Thor</p>
+      </div>
+      <div class="right">
+        <p>#10—Loki</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection6" class="clearfix">
+      <div class="left">
+        <p>#11—Captain America</p>
+      </div>
+      <div class="right">
+        <p>#12—Red Skull</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection7" class="clearfix">
+      <div class="left">
+        <p>#13—Ironman</p>
+      </div>
+      <div class="right">
+        <p>#14—Mandarin</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection8" class="clearfix">
+      <div class="left">
+        <p>#15—Wolverine</p>
+      </div>
+      <div class="right">
+        <p>#16—Sabretooth</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection9" class="clearfix">
+      <div class="left">
+        <p>#17—Flash</p>
+      </div>
+      <div class="right">
+        <p>#18—Zoom</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection10" class="clearfix">
+      <div class="left">
+        <p>#19—Daredevil</p>
+      </div>
+      <div class="right">
+        <p>#20—Bullseye</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection11" class="clearfix">
+      <div class="left">
+        <p>#21—Green Lantern</p>
+      </div>
+      <div class="right">
+        <p>#22—Sinestro</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection12" class="clearfix">
+      <div class="left">
+        <p>#23—Cyclops</p>
+      </div>
+      <div class="right">
+        <p>#24—Magneto</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection13" class="clearfix">
+      <div class="left">
+        <p>#25—Wonderwoman</p>
+      </div>
+      <div class="right">
+        <p>#26—Cheetah</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection14" class="clearfix">
+      <div class="left">
+        <p>#27—Catwoman</p>
+      </div>
+      <div class="right">
+        <p>#28—Two-Face</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection15" class="clearfix">
+      <div class="left">
+        <p>#29—Robin</p>
+      </div>
+      <div class="right">
+        <p>#30—Penguin</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection16" class="clearfix">
+      <div class="left">
+        <p>#31—Mr Fantastic</p>
+      </div>
+      <div class="right">
+        <p>#32—Doctor Doom</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection17" class="clearfix">
+      <div class="left">
+        <p>#33—Deadpool</p>
+      </div>
+      <div class="right">
+        <p>#34—Deathstroke</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection18" class="clearfix">
+      <div class="left">
+        <p>#35—Ant-man</p>
+      </div>
+      <div class="right">
+        <p>#36—Yellowjacket</p>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <section id="fbsection19" class="clearfix">
+       <div class="left">
+         <p>#37—Aquaman</p>
+       </div>
+       <div class="right">
+         <p>#38—Black Manta</p>
+       </div>
+       <div class="clear"></div>
+     </section>
+  </div>
+</div>
+<div class="clear"></div>
+<footer>
+  <div class="left">
+    <p class="big">An illustration project showing how Super Mario and Super Wario would look if they really were Super, dressing them up as Iconic Comic Book Rivals. The project was created for Super Mario's 30th Birthday and has no affiliation with Nintendo.</p>
+    <p>All images Copyright &copy; <?php echo date("Y");?> <a href="http://roblafratta.com" alt="Rob Lafratta Product Designer">Rob Lafratta</a></p>
+  </div>
+  <div class="right">
+    <div class="share"> 
+      
+      <!--<div class="nextto">
+<div class="fb-like" data-href="http://www.facebook.com/reallysupermario" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-width="button_count"></div>
+</div> -->
+      
+      <div class="nextto"> <div class="fb-share-button" data-href="http://roblafratta.com/mariowario" data-layout="button" data-show-faces="false" data-mobile-iframe="true"></div>
+    </div>
+    <div class="nextto"> <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> 
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+    </div>
+  </div>
+  <!-- end share -->
+  <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ --> 
+<script src="/js/jquery.easing.min.js"></script> 
+<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ --> 
+<script src="/js/waypoints.min.js"></script> 
+<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize --> 
+<script src="/js/jquery.debouncedresize.js"></script> 
+<script src="/js/cbpFixedScrollLayout.min.js"></script> 
+
+
+
+<script>
+	$(function() {
+	  
+	  if (window.innerWidth > 479) {
+    cbpFixedScrollLayout.init();
+    }
+		
+	
+		
+		
+	});
+</script>
+
+
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-546243-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

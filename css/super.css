@@ -1,0 +1,457 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;height: 100%; -webkit-text-size-adjust: 100%; }
+
+
+.clear {clear: both;padding:0;margin:0;}
+.clear-right {clear: right;}
+.clear-left {clear: left;}
+
+
+body {
+    font-family: 'worksansregular', sans-serif;
+    color: #222;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'worksansregular';
+    src: url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+    	url('../fonts/WorkSans-Regular.woff') format('woff'),
+		url('../fonts/WorkSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} 
+
+
+.opl {
+display: inline-block;
+position: fixed;
+right: 0;
+bottom: 50px;
+z-index:999999;
+}
+	
+	
+.worksansregular {
+	font-family: 'worksansregular';
+} 
+
+a {
+	color: #222;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #666;
+}
+
+header {
+	padding: 20px;
+	text-align:left;
+	z-index: 1000;
+	width: 100%;
+}
+
+header h1 {
+	font-size: 1.2em;
+	line-height: 1.3;
+	margin: 5px 0 0 0;
+	color:#222;
+	font-weight:normal;
+}
+
+header h2, header h2 a {
+	font-size: 0.9em;
+	line-height: 1.3;
+	margin: 0;
+	color:#222;
+	text-align:right;
+	font-weight:normal;
+}
+
+h2 span.birthday  {
+	    color: white;
+	    font-size: 0.75em;
+	    background-color: #F33F3F;
+	    -webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	    padding: 2px 5px;
+	    text-transform: uppercase;
+	width:auto;
+	display:inline-block; text-align:right;
+	margin-top:18px
+	
+}
+
+header p.sub {font-size:0.9em;color:#666;margin:2px 0 0 0}
+
+.avatar { -webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+height:56px;
+width:56px;
+float:left;
+margin-right:20px
+}
+
+i.arrowback {    padding: 0 20px 0 0;
+    border-right: 1px #ccc solid;
+    margin: 0 10px 0 0;
+}
+
+.vs-block {background-color: #fff;
+position: fixed;
+z-index: 999999999;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 50%;
+height: 30px;
+width: 30px;
+text-align: center;
+padding-top: 4px;}
+
+footer p.big {font-size:1.2em;line-height:1.6}
+footer  {font-size:0.75em;padding: 10px 20px;}
+
+footer .right {text-align:right;margin-top:8px}
+
+.twitter-share-button[style] { vertical-align: text-bottom !important; }
+
+/* Set all parents to full height */
+
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+	height: 100%;
+}
+
+/* The nav is fixed on the right side  and we center it by translating it 50% 
+(we don't know it's height so we can't use the negative margin trick) */
+.cbp-fbscroller > nav {
+	position: fixed;
+	z-index: 9999;
+	right: 1%;
+	top: 50%;
+	width: 26px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cbp-fbscroller > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	width: 3px;
+	height: 3px;
+	outline: none;
+	margin: 15px 0;
+	border-radius: 50%;
+background: rgba(255,255,255,0.3);
+}
+
+.no-touch .cbp-fbscroller > nav a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+	background: #fff;
+}
+
+.cbp-fbscroller > nav a span.new {
+	    color: white;
+	    font-size: 0.6em;
+	    background-color: #F33F3F;
+	    -webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	    padding: 2px 5px;
+	    position: absolute;
+	    top: -5px;
+	    right: 15px;
+	    text-transform: uppercase;
+	
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section .left, .cbp-fbscroller section .right {
+	position: relative;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: scroll; 
+	
+}
+
+.no-touch .cbp-fbscroller section .left{
+	background-attachment: fixed; 
+	background-position: 20%;
+	background-position: -webkit-calc(25% - 62px);
+	background-position: -moz-calc(25% - 62px);
+	background-position: calc(25% - 62px);}
+
+.no-touch .cbp-fbscroller section .right {background-attachment: fixed; 
+	background-position: 80%;
+	background-position: -webkit-calc(75% + 62px);
+	background-position: -moz-calc(75% + 62px);
+	background-position: calc(75% + 62px);}
+
+.cbp-fbscroller section .left {padding:5px 20px;width:50%;background-size:248px 248px}
+.cbp-fbscroller section .right {padding:5px 20px;width:50%;background-size:248px 248px}
+
+.left {width:50%;float:left;height:100%;}
+.right {width:50%;float:right;height:100%;}
+
+.right .share {position:fixed;bottom:20px;right:20px}
+
+#fbsection1 .left{
+	background-image: url(../images/super/superman.png);
+	background-color:#1e3762;color:#fff;cursor: s-resize;
+	
+}
+
+#fbsection1 .right{
+	background-image: url(../images/super/luther.png);
+	background-color:#333;color:#fff;cursor: s-resize;
+}
+
+#fbsection2 .left{
+	background-image: url(../images/super/batman.png);
+	background-color:#1f2040;color:#fff;
+}
+
+#fbsection2 .right{
+	background-image: url(../images/super/joker.png);
+	background-color:#432860;color:#fff;
+}
+
+#fbsection3 .left{
+	background-image: url(../images/super/spiderman.png);
+	background-color:#8a1f23;color:#fff;
+}
+
+#fbsection3 .right{
+	background-image: url(../images/super/greengoblin.png);
+	background-color:#65244a;color:#fff;
+}
+
+#fbsection4 .left{
+	background-image: url(../images/super/hulk.png);
+	background-color:#4e793d;color:#fff;
+}
+
+#fbsection4 .right{
+	background-image: url(../images/super/abomination.png);
+	background-color:#444329;color:#fff;
+}
+
+#fbsection5 .left{
+	background-image: url(../images/super/thor.png);
+	background-color:#E0BC32;color:#fff;
+}
+
+#fbsection5 .right{
+	background-image: url(../images/super/loki.png);
+	background-color:#4b8a54;color:#fff;
+}
+
+
+
+#fbsection6 .left{
+	background-image: url(../images/super/captainamerica.png);
+	background-color:#203964;color:#fff;
+}
+
+#fbsection6 .right{
+	background-image: url(../images/super/redskull.png);
+	background-color:#4d4d4d;color:#fff;
+}
+
+#fbsection7 .left{
+	background-image: url(../images/super/ironman.png);
+	background-color:#A70007;color:#fff;
+}
+
+#fbsection7 .right{
+	background-image: url(../images/super/mandarin.png);
+	background-color:#16522F;color:#fff;
+}
+
+#fbsection8 .left{
+	background-image: url(../images/super/wolverine.png);
+	background-color:#3D3E40;color:#fff;
+}
+
+#fbsection8 .right{
+	background-image: url(../images/super/sabretooth.png);
+	background-color:#775d3e;color:#fff;
+}
+
+#fbsection9 .left{
+	background-image: url(../images/super/flash.png);
+	background-color:#e1b210;color:#fff;
+}
+
+#fbsection9 .right{
+	background-image: url(../images/super/zoom.png);
+	background-color:#AB0308;color:#fff;
+}
+
+
+
+
+#fbsection10 .left{
+	background-image: url(../images/super/daredevil.png);
+	background-color:#272020;color:#fff;
+}
+
+#fbsection10 .right{
+	background-image: url(../images/super/bullseye.png);
+	background-color:#343434;color:#fff;
+}
+
+#fbsection11 .left{
+	background-image: url(../images/super/greenlantern.png);
+	background-color:#10492e;color:#fff;
+}
+
+#fbsection11 .right{
+	background-image: url(../images/super/sinestro.png);
+	background-color:#842222;color:#fff;
+}
+
+#fbsection12 .left{
+	background-image: url(../images/super/cyclops.png);
+	background-color:#192f53;color:#fff;
+}
+
+#fbsection12 .right{
+	background-image: url(../images/super/magneto.png);
+	background-color:#482860;color:#fff;
+}
+
+#fbsection13 .left{
+	background-image: url(../images/super/wonderwoman.png);
+	background-color:#B50000;color:#fff;
+}
+
+#fbsection13 .right{
+	background-image: url(../images/super/cheetah.png);
+	background-color:#D4B200;color:#fff;
+}
+
+#fbsection14 .left{
+	background-image: url(../images/super/catwoman.png);
+	background-color:#393837;color:#fff;
+}
+
+#fbsection14 .right{
+	background-image: url(../images/super/twoface.png);
+	background-color:#717171;color:#fff;
+}
+
+#fbsection15 .left{
+	background-image: url(../images/super/robin.png);
+	background-color:#D4B200;color:#fff;
+}
+
+#fbsection15 .right{
+	background-image: url(../images/super/penguin.png);
+	background-color:#3c284a;color:#fff;
+}
+
+
+
+#fbsection16 .left{
+	background-image: url(../images/super/mrfantastic.png);
+	background-color:#163152;color:#fff;
+
+}
+
+#fbsection16 .right{
+	background-image: url(../images/super/doctordoom.png);
+	background-color:#2D4432;color:#fff;
+}
+
+
+#fbsection17 .left{
+	background-image: url(../images/super/deadpool.png);
+	background-color:#8b1a1e;color:#fff;
+
+
+}
+
+#fbsection17 .right{
+	background-image: url(../images/super/deathstroke.png);
+	background-color:#1f2a4f;color:#fff;
+
+
+}
+
+#fbsection18 .left{
+	background-image: url(../images/super/antman.png);
+	background-color:#064870;color:#fff;
+
+}
+
+#fbsection18 .right{
+	background-image: url(../images/super/yellowjacket.png);
+	background-color:#484848;color:#fff;
+
+}
+
+#fbsection19 .left{
+	background-image: url(../images/super/aquaman.png);
+	background-color:#74bbcc;color:#fff;
+cursor: n-resize;
+}
+
+#fbsection19 .right{
+	background-image: url(../images/super/blackmanta.png);
+	background-color:#4c5056;color:#fff;
+cursor: n-resize;
+}
+
+
+
+.nextto {display: inline-block;
+    width: auto; vertical-align:top}
+
+
+@media only screen and (max-width: 45em) {
+	
+	nav {display:none}
+	.cbp-fbscroller section .left {padding:5px 10px;width:50%;background-size:140px 140px}
+	.cbp-fbscroller section .right {padding:5px 10px;width:50%;background-size:140px 140px}
+	html, body, .container, .cbp-fbscroller, .cbp-fbscroller section {height:auto}
+	header 	.right, header .left, footer .right, footer .left {height:auto;float:none;width:100%;text-align:left !important}
+	header {padding:10px}
+	header h1 {font-size:1em}
+	header h2, header h2 a {text-align:left;font-size:0.9em !important}
+	p, footer p {font-size:0.8em;margin:5px 0}
+	footer {padding:10px 10px 40px}
+	.right, .left {height:300px;}
+	.right .share {position:fixed;bottom:10px;left:10px}
+.hide-for-mobile {display:none}
+
+.opl {
+
+bottom: 0px;
+}
+
+.vs-block {
+height: 20px;
+width: 20px;
+font-size:80%;
+padding-top:1px}
+	
+}
