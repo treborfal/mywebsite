@@ -37,6 +37,19 @@
       ]
     },
     {
+      "name": "GenLingo",
+      "url": "https://genlingo.co/",
+      "title": "GenLingo",
+      "description": "learn the language of every generation — one lesson a day. It's fire!",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://genlingo.co/",
+          "title": "GenLingo"
+        }
+      ]
+    },
+    {
       "name": "whatbin.fyi",
       "url": "http://whatbin.fyi/",
       "title": "WhatBin",
